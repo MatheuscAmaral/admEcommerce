@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Adm Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do Adm Ecommerce, um sistema online desenvolvido para administrar o ecommerce MTX, especializado em suplementos. Este projeto foi criado para fornecer uma interface de gerenciamento completa, permitindo a administração eficiente de produtos, pedidos, promoções e clientes.
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Adm Ecommerce é o painel administrativo do ecommerce MTX. Ele oferece uma gama de funcionalidades que facilitam a gestão do ecommerce, tais como:
 
-## Expanding the ESLint configuration
+- Criação e gerenciamento de produtos exibidos no ecommerce.
+- Gerenciamento e visualização de pedidos.
+- Criação e gestão de promoções.
+- Visualização e gestão de clientes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este repositório contém exclusivamente o sistema de administração, desenvolvido com React e TypeScript para o frontend, e utilizando a mesma API Laravel do ecommerce para o backend.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React** - Biblioteca JavaScript para a construção de interfaces de usuário.
+- **TypeScript** - Superset do JavaScript que adiciona tipos estáticos ao código.
+- **Axios** - Cliente HTTP para realizar chamadas à API Laravel.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Funcionalidades Principais
+
+- **Gerenciamento de Produtos**: Criação, edição e exclusão de produtos.
+- **Gerenciamento de Pedidos**: Visualização detalhada de pedidos, atualização de status e gerenciamento de entregas.
+- **Criação e Gestão de Promoções**: Configuração de promoções e cupons de desconto.
+- **Gestão de Clientes**: Visualização e gerenciamento de informações dos clientes, histórico de pedidos e mais.
+- **Dashboard**: Painel de controle com visualizações e estatísticas do ecommerce.
